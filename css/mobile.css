@@ -1,0 +1,89 @@
+/* Navigation */
+#navbar .logo {
+  text-align: center;
+}
+
+#navbar ul,
+#navbar .container,
+#home-info,
+#features,
+#about .container,
+#contact-adress .container {
+  flex-direction: column;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-top: 1px dotted #555;
+}
+
+/* Showcase */
+#showcase {
+  background: linear-gradient(rgba(000, 000, 000, 0.3), rgba(000, 000, 000, 0)),
+    url(../img/augsburg.webp);
+  background-size: cover;
+  background-position: 65%;
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 100%;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  font-size: 14px;
+  padding: 30px 30px;
+}
+
+/* About */
+.about-info h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.about-info {
+  padding: 10px 20px;
+}
+
+#testimonials h3 {
+  margin-top: 50px;
+}
+
+#testimonials {
+  padding: 10px;
+}
+
+/* Footer */
+#footer {
+  font-size: 12px;
+}
+
+/* Contactt */
+#contact-form {
+  padding: 0 10px;
+}
+
+#contact-adress .box {
+  border-bottom: #444 dotted 1px;
+}

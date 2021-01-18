@@ -1,0 +1,326 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Martel", serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+}
+
+.text-primary {
+  color: #36963a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-white {
+  display: inline-block;
+  font-size: 18px;
+  color: #000;
+  background: #fff;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn-white:hover {
+  background: #36963a;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #36963a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+.py-4 {
+  padding: 40px 0;
+}
+.py-5 {
+  padding: 50px 0;
+}
+.py-6 {
+  padding: 60px 0;
+}
+.py-7 {
+  padding: 70px 0;
+}
+
+/* Navigation */
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  padding-top: 20px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active {
+  background: #444;
+  color: #36963a;
+}
+
+/* Showcase */
+#showcase {
+  background: linear-gradient(rgba(000, 000, 000, 0.3), rgba(000, 000, 000, 0)),
+    url(../img/augsburg.webp);
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 50px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 450px;
+  display: flex;
+}
+
+#home-info .info-img {
+  border: 20px solid #333;
+  flex: 1;
+  min-height: 100%;
+  background: url(../img/augsburg_chronicles_6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home-info .info-content {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Features */
+#features {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+}
+
+.box i {
+  padding-bottom: 10px;
+}
+
+/* Footer */
+#footer {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* About */
+#about .container {
+  display: flex;
+}
+
+.about-info {
+  flex: 1;
+  min-height: 100%;
+}
+
+.about-info h2 {
+  font-size: 32px;
+}
+
+.about-img {
+  padding-top: 40px;
+  flex: 1;
+  min-height: 100%;
+}
+
+.about-img img {
+  border-radius: 50%;
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+/* Testimonials */
+#testimonials {
+  background-image: linear-gradient(
+      rgba(033, 033, 033, 0.33),
+      rgba(033, 033, 033, 0.33)
+    ),
+    url(../img/augsburg_03.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  padding: 20px 0px 40px;
+}
+
+#testimonials h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  margin-top: 100px;
+}
+
+#testimonials .testimonial-box {
+  background-color: rgba(54, 150, 58, 0.9); /* rgba(76, 175, 80, 0.90); */
+  line-height: 1.7em;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/* Contact */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form h2 {
+  font-size: 32px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #36963a;
+}
+
+#contact-adress {
+  color: #f4f4f4;
+  height: 100%;
+}
+
+#contact-adress .container {
+  display: flex;
+}
+
+#contact-adress .box {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+}
